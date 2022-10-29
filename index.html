@@ -23,7 +23,8 @@
         cursor: pointer;
     }        
 </style>
-<h1>Jogo da Velha</h1>
+<h1>Jogo da Velha criado por brayan 
+</h1>
 <table>
     <tr>
         <td onclick="marcar(this)"></td>
@@ -39,6 +40,7 @@
         <td onclick="marcar(this)"></td>
         <td onclick="marcar(this)"></td>
         <td onclick="marcar(this)"></td>
+        
     </tr>
 </table>
 <script>
@@ -47,5 +49,8 @@
         if (td.innerHTML) return
         td.innerHTML = player
         player = player === "X" ? "O" : "X"
+    
     }
+
+
 </script>
