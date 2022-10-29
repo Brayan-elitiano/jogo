@@ -1,5 +1,5 @@
 <head> 
-    <title>jogo da velha</title>
+    <title>jogo da velha by brayan</title>
 </head>
 <body> 
 <style>
@@ -49,11 +49,11 @@
     </tr>
 </table>
 <script>
-    var player = "b"
+    var player = "x"
     function marcar(td) {
         if (td.innerHTML) return
         td.innerHTML = player
-        player = player === "b" ? "l" : "b"
+        player = player === "x" ? "o" : "x"
     
     }
 
